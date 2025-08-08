@@ -12,15 +12,8 @@ The framework addresses a fundamental insight: **conflict is multi-dimensional, 
 
 Traditional conflict analysis approaches often try to cram temporal patterns, geographic factors, social dynamics, and economic pressures into a single model. But real conflicts don't work that way - they emerge from complex interactions across multiple dimensions that require specialized analysis.
 
-## The Solution: Tribal Intelligence
+## The Solution: Collective Intelligence
 
-### Core Agents
-
-- **Temporal Shaman** 🕰️: Specializes in time series analysis, seasonal patterns, escalation timing, and historical precedent matching
-- **Geographic Scout** 🗺️: Focuses on spatial risk assessment, spillover effects, regional clustering, and border dynamics  
-- **Severity Oracle** ⚡: Analyzes event magnitude, extreme violence detection, and escalation thresholds
-- **Social Anthropologist** 👥: Examines actor behavior, targeting patterns, and strategic shifts *(planned)*
-- **Economic Tracker** 💰: Monitors resource-driven conflicts and economic pressures *(planned)*
 
 ### How It Works
 
@@ -55,26 +48,6 @@ Traditional conflict analysis approaches often try to cram temporal patterns, ge
 git clone https://github.com/[username]/multi-agent-tribal-intelligence
 cd multi-agent-tribal-intelligence
 pip install -r requirements.txt
-```
-
-## Quick Start
-
-```python
-# Initialize tribal agents
-temporal_shaman = TemporalShaman()
-geographic_scout = GeographicScout()
-severity_oracle = SeverityOracle()
-
-# Create tribal council
-tribal_council = TribalCouncil([temporal_shaman, geographic_scout, severity_oracle])
-
-# Analyze your conflict data
-session = tribal_council.convene_council(your_conflict_data)
-
-# Get consensus predictions and recommendations
-consensus = session['tribal_consensus']
-print(f"Risk Level: {consensus['risk_level']}")
-print(f"Confidence: {consensus['confidence']}")
 ```
 
 
