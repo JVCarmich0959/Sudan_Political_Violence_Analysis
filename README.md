@@ -1,4 +1,4 @@
-# Multi-Agent Tribal Intelligence for Conflict Analysis
+# Multi-Modal Approach to Conflict Analysis
 
 A neuroscience-inspired AI framework for analyzing and predicting political violence using open conflict data.
 
